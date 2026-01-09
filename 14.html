@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 14: Sistem Penunjang Keputusan (DSS)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2025/04/anime-astronaut-space-dream-desktop-wallpaper-preview.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ffcc00; /* Warna kuning terang agar kontras */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Memberikan bayangan pada teks untuk kontras lebih tinggi */
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 2em;
+            color: #ffcc00;
+        }
+
+        .back-btn {
+            background-color: #ffcc00;
+            color: black;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        .back-btn:hover {
+            background-color: #ff6666;
+        }
+
+        .content {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #b3e0ff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Pertemuan 14: Sistem Penunjang Keputusan (DSS)</h1>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">Kembali ke Index</button>
+
+    <div class="content">
+        <h2>Rangkuman Materi:</h2>
+
+        <p><strong>Pengertian Sistem Penunjang Keputusan (DSS):</strong>
+            Sistem Penunjang Keputusan (DSS) adalah sistem berbasis komputer yang mendukung pengambilan keputusan dengan menyediakan informasi, analisis, dan model untuk memecahkan masalah yang semi-terstruktur dan tidak terstruktur. DSS membantu manajer dalam memecahkan masalah dengan memberikan saran berdasarkan data yang tersedia.</p>
+
+        <p><strong>Sejarah DSS:</strong>
+            DSS pertama kali muncul pada akhir tahun 1960-an dengan adanya penggunaan komputer berbasis time-sharing, yang memungkinkan pengguna berinteraksi langsung dengan komputer tanpa perantara. DSS mulai dikenalkan pada tahun 1971 oleh G. Anthony Gorry dan Michael S. Scott Morton yang menulis artikel berjudul "A Framework for Management Information System". Mereka mengembangkan kerangka untuk mendukung keputusan manajemen menggunakan aplikasi komputer.</p>
+
+        <p><strong>Jenis DSS:</strong>
+            Berdasarkan studi yang dilakukan oleh Steven L. Alter, terdapat enam jenis DSS, yaitu:
+            <ul>
+                <li><strong>Retrieve Information Elements:</strong> Memperoleh elemen informasi dari berbagai sumber.</li>
+                <li><strong>Analyze Entries Files:</strong> Menganalisis file-file masukan.</li>
+                <li><strong>Prepare Reports From Multiple Files:</strong> Menyiapkan laporan dari beberapa file data.</li>
+                <li><strong>Estimate Decisions Consequences:</strong> Meramalkan akibat dari keputusan yang diambil.</li>
+                <li><strong>Propose Decisions:</strong> Menawarkan alternatif keputusan.</li>
+                <li><strong>Make Decisions:</strong> Membantu manajer dalam proses pengambilan keputusan.</li>
+            </ul>
+        </p>
+
+        <p><strong>Tujuan DSS:</strong>
+            DSS bertujuan untuk membantu manajer dalam pengambilan keputusan untuk memecahkan masalah semi-terstruktur, mendukung pengambilan keputusan tanpa menggantikan keputusan yang dibuat oleh manajer, serta meningkatkan efektivitas keputusan yang diambil oleh manajer.</p>
+
+        <p><strong>Cara Penggunaan Informasi dari DSS:</strong>
+            Informasi dari DSS digunakan oleh manajer untuk mendefinisikan masalah dan memecahkannya. Pendefinisian masalah berkaitan dengan fase intelegensi menurut Simon, sedangkan memecahkan masalah berkaitan dengan fase desain dan pemilihan. DSS juga mendukung manajer dengan menyediakan laporan berkala dan khusus serta melakukan simulasi untuk menemukan solusi terbaik.</p>
+
+        <p><strong>Laporan Berkala dan Khusus:</strong>
+            <ul>
+                <li><strong>Laporan Berkala:</strong> Laporan yang dibuat sesuai jadwal tertentu, seperti laporan analisis penjualan setiap bulan.</li>
+                <li><strong>Laporan Khusus:</strong> Laporan yang disiapkan untuk situasi yang tidak biasa, seperti laporan kecelakaan atau insiden khusus.</li>
+            </ul>
+        </p>
+
+        <p><strong>Simulasi dan Pemodelan dalam DSS:</strong>
+            Simulasi memungkinkan manajer untuk menguji berbagai skenario dan memprediksi dampaknya. Pemodelan matematis digunakan untuk menganalisis alternatif keputusan dan memproyeksikan hasil yang optimal. Model optimisasi membantu mencari solusi terbaik di antara alternatif yang ada, sedangkan model suboptimisasi memungkinkan keputusan yang cukup baik meskipun tidak optimal.</p>
+
+        <p><strong>Keuntungan dan Kerugian Pemodelan:</strong>
+            Keuntungan menggunakan model matematis dalam DSS termasuk proses yang lebih cepat, biaya yang lebih rendah dibandingkan dengan metode trial and error, serta kemampuan peramalan yang lebih baik. Namun, kerugian termasuk kesulitan dalam pemodelan yang bisa menghasilkan model yang tidak dapat menangkap semua variabel dalam sistem yang lebih kompleks.</p>
+
+        <p><strong>Penggunaan DSS dalam Keputusan Bisnis:</strong>
+            DSS digunakan untuk membantu manajer dalam membuat keputusan strategis, seperti merencanakan sumber daya perusahaan atau memprediksi tren pasar. Sistem ini mendukung berbagai bidang bisnis seperti perencanaan operasional, keuangan, pemasaran, dan SDM.</p>
+    </div>
+</div>
+
+</body>
+</html>
